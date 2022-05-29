@@ -4,36 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Slider</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Language Dropdown</title>
 </head>
 <body>
-    <header id="1" class="header">
-        <div class="up">
-            <div class="up_side">
-                <div class="arrow">
-                    <i class="fas fa-arrow-circle-left left_arrow"></i>
-                </div>
-            </div>
-            <div class="up_side">
-                <div class="arrow">
-                    <i class="fas fa-arrow-circle-right right_arrow"></i>
-                </div>
-            </div>
+    <ul>
+        <div class="first">
+            <li id="arm"class="lang">Arm</li>
         </div>
-        <div class="down">
-            <div class="circle_div">
-                <div class="circle c1 full"></div>
-                <div class="circle c2"></div>
-                <div class="circle c3"></div>
+        <div id="hidden_div" class="hidden ad">
+            <div>
+                <li id="rus" class="lang">Rus</li>
+            </div>
+            <div>
+                <li id="eng" class="lang">Eng</li>
             </div>
         </div>
 
-    </header>
+    </ul>
 
-    <script src="./Script/jquery-3.6.0.min.js"></script>
-    <script src="./Script/script.js"></script>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script type="module" src="./script.js"></script>
+    <script  src="./functions.js"></script>
 </body>
 </html>
